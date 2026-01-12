@@ -1,0 +1,40 @@
+[project]
+name = "VPBench"
+version = "0.1.0"
+description = "Utilities for running visual prompt bias benchmarks."
+readme = "README.md"
+requires-python = ">=3.9,<3.11"
+dependencies = [
+    "anthropic>=0.36",
+    "datasets>=3.1",
+    "fastapi>=0.115.6",
+    "google-generativeai>=0.8",
+    "numpy>=1.24",
+    "opencv-python-headless>=4.8",
+    "openai>=1.0",
+    "openpyxl>=3.1",
+    "pandas>=2.1",
+    "pillow>=10.0",
+    "pydantic>=2.10.4",
+    "qwen-vl-utils>=0.0.8",
+    "requests>=2.32.3",
+    "torch>=2.3.1",
+    "torchvision>=0.18.1",
+    "transformers>=4.49.0.dev0",
+    "tqdm>=4.65",
+    "uvicorn>=0.34.0",
+    "accelerate>=1.10.1",
+    "hatchling>=1.27.0",
+    "editables>=0.5",
+    "flash-attn==2.7.2.post1",
+    "timm>=1.0.20",
+    "jupyterlab>=4.4.10",
+    "nvitop>=1.5.3",
+    "matplotlib>=3.9.4",
+    "pip>=25.3",
+    "seaborn>=0.13.2",
+    "hf-transfer>=0.1.9",
+]
+
+[tool.uv.extra-build-dependencies]
+flash-attn = [{ requirement = "torch", match-runtime = true }]
