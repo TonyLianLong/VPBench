@@ -3,11 +3,11 @@
 
 UC Berkeley
 
-[Paper](https://arxiv.org/abs/2512.17875) | [Project Page](https://lisadunlap.github.io/vpt-fragile/) | [Dataset](https://huggingface.co/datasets/longlian/VPBench) | [Citation](#citation)
+[Paper](https://arxiv.org/abs/2512.17875) | [Project Page](https://lisadunlap.github.io/vpbench/) | [Dataset](https://huggingface.co/datasets/longlian/VPBench) | [Citation](#citation)
 
 **TL;DR**: Small visual-prompting details (marker color/size, dataset size, JPEG compression) can swing VLM accuracy and reorder leaderboards on visually prompted tasks; VPBench adds 16 marker variants to stress-test this instability.
 
-![Visually Prompted Tasks are Fragile](https://lisadunlap.github.io/vpt-fragile/assets/figures/vpb_main.png)
+![Visually Prompted Tasks are Fragile](https://lisadunlap.github.io/vpbench/assets/figures/vpb_main.png)
 
 This repo contains evaluation code for VPBench proposed in the paper [Visually Prompted Benchmarks Are Surprisingly Fragile](https://arxiv.org/abs/2512.17875).
 
